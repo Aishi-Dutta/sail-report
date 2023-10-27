@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Report</title>
+</head>
+<body>
+    <div class="border-2 border-black justify-items-center pl-80 pr-80"><!-- heading -->
+    <nav class="bg-blue-100 mt-8 text-2xl font-semibold p-2">Machine Summary(last 24 Hrs):</nav>
+    <!-- tables -->
+    <div class="flex flex-row justify-evenly">
+        <div class="border-2 border-black rounded p-2 w-96 mt-2"><span class="font-semibold">Operational</span><table class="w-full"><tr><td> Number of Starts</td><td class="text-right">1</td></tr>
+                                                                                                <tr><td> Number of Stops</td><td class="text-right">0</td></tr>
+                                                                                                    <tr><td>Machine Utilization</td><td class="text-right">99%</td></tr>
+                                                                                                    <tr><td>Average Run Time</td><td class="text-right">23 Hours</td></tr></table></div>
+        <div class="border-2 border-black rounded p-2 w-96 mt-2"><span class="font-semibold">Overall Health</span> <table class="w-full"><tr><td> Updated at</td><td class="text-right">2023-15-10 12:04:07 (IST)</td></tr>
+                                                                                                    <tr><td>Status</td><td class="text-right"><span class="bg-yellow-400 p-1 rounded font-semibold">Unsatisfactory</span></td></tr>
+                                                                                                    <tr><td>Recommended Action</td><td class="text-right">Attention Required</td></tr>
+                                                                                                    <tr></tr></table></div>
+        <div class="border-2 border-black rounded p-2 w-96 mt-2"><span class="font-semibold">Service Status</span> <table class="w-full"><tr><td>Service Type</td></tr>
+                                                                                                    <tr><td>Last Service Date</td></tr>
+                                                                                                    <tr><td>Service Performed</td></tr>
+                                                                                                    <tr><td>Next Service Due</td> </tr></table></div>
+    </div>
+    <div class="font-bold p-2 text-2xl"> Motor Health Report</div>
+    <div class="font-bold p-2 text-xl">Real Time Data</div>
+    <!-- Acceleration Table -->
+    <div class="mt-2 mb-4"><table class="w-full text-center font-semibold"><tr class="border-2 border-gray-300 text-center"><td class="font-semibold text-xl">Acceleration</td></tr>
+                <tr class="border-2 border-gray-300"><td>Tangential</td><td class="border-2 border-gray-300">2.36 m/sec2</td><td class="text-green-400 border-2 border-gray-300 font-bold">Safe</td></tr>
+                <tr><td class="border-2 border-gray-300">Axial</td><td class="border-2 border-gray-300">3.54 m/sec2</td><td class="border-2 border-gray-300 text-yellow-400 font-bold">Mid</td></tr>
+                <tr><td class="border-2 border-gray-300">Radial</td><td class="border-2 border-gray-300">6.28 m/sec2</td><td class="border-2 border-gray-300 text-red-400 font-bold">High</td></tr></table>
+            </div>
+    <!-- Temperature Table -->
+    <div class="mt-2 mb-4"><table class="w-full text-center font-semibold"><tr class="border-2 border-gray-300 text-center"><td class="font-semibold text-xl">Temperature</td></tr>
+        <tr class="border-2 border-gray-300"><td>Tangential</td><td class="border-2 border-gray-300">2.36 m/sec2</td><td class="text-green-400 border-2 border-gray-300 font-bold">Safe</td></tr>
+        <tr><td class="border-2 border-gray-300">Axial</td><td class="border-2 border-gray-300">3.54 m/sec2</td><td class="border-2 border-gray-300 text-yellow-400 font-bold">Mid</td></tr>
+        <tr><td class="border-2 border-gray-300">Radial</td><td class="border-2 border-gray-300">6.28 m/sec2</td><td class="border-2 border-gray-300 text-red-400 font-bold">High</td></tr></table>
+    </div>
+    <!-- Velocity Table -->
+    <div class="mt-2 mb-4"><table class="w-full text-center font-semibold"><tr class="border-2 border-gray-300 text-center"><td class="font-semibold text-xl">Acceleration</td></tr>
+        <tr class="border-2 border-gray-300"><td>Tangential</td><td class="border-2 border-gray-300">2.36 m/sec2</td><td class="text-green-400 border-2 border-gray-300 font-bold">Safe</td></tr>
+        <tr><td class="border-2 border-gray-300">Axial</td><td class="border-2 border-gray-300">3.54 m/sec2</td><td class="border-2 border-gray-300 text-yellow-400 font-bold">Mid</td></tr>
+        <tr><td class="border-2 border-gray-300">Radial</td><td class="border-2 border-gray-300">6.28 m/sec2</td><td class="border-2 border-gray-300 text-red-400 font-bold">High</td></tr></table>
+    </div>
+    <!-- magnetic table -->
+    <div><table></table></div>
+</div>
+</body>
+</html>
